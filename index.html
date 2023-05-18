@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="For that girl who made me live... for her who is purely and solemnly.... MINE ❤">
+    <title>For my Ray of Light 💝</title>
+    <link rel="stylesheet" href="./CSS/navbar_styles.css">
+    <link rel="stylesheet" href="./CSS/meet_archi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,300;1,400;1,700&family=Kalam:wght@300;400;700&family=Lobster+Two:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Lobster+Two:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="./Images/giphy-heart-beating.gif" alt="Logo" class="logo">
+            <div class="navbar-toggle">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <ul class="navbar-buttons">
+              <li><a href="#">Meet Archi 🐰</a></li>
+              <li><a href="#">Meet US 💞</a></li>
+              <li><a href="#">A letter for Her Birthday 💌</a></li>
+              <li><a href="#">How we Started 💕</a></li>
+            </ul>
+          </nav>
+          
+    </header>
+    <main>
+        <div class="cover-photo">
+            <div class="blur-background"></div>
+            <div class="content">
+              <h1>Introducing my RAY OF LIGHT 💝 </h1>
+            </div>
+          </div>
+          
+        <div class="gallery">
+            <div class="gallery_heading">
+                <h2>Meet Archi 🐰 </h2>
+            </div>
+        
+            <div class="gallery_pictures">
+                <div class="first_row">
+                    <img src="/Images/photo_1.jpg" alt="photo_1" onclick="openFullScreen(0)">
+                    <img src="/Images/photo_2.jpg" alt="photo_2" onclick="openFullScreen(1)">
+                    <img src="/Images/photo_3.jpg" alt="photo_3" onclick="openFullScreen(2)">
+                </div>
+                <div class="second_row">
+                    <img src="/Images/photo_4.jpg" alt="photo_4" onclick="openFullScreen(3)">
+                    <img src="/Images/photo_5.jpg" alt="photo_5" onclick="openFullScreen(4)">
+                    <img src="/Images/photo_6.jpg" alt="photo_6" onclick="openFullScreen(5)">
+                </div>
+                <div class="third_row">
+                    <img src="/Images/photo_7.jpg" alt="photo_7" onclick="openFullScreen(6)">
+                    <img src="/Images/photo_8.jpg" alt="photo_8" onclick="openFullScreen(7)">
+                    <img src="/Images/photo_9.jpg" alt="photo_9" onclick="openFullScreen(8)">
+                </div>
+            </div>
+        
+            <div id="fullscreen-overlay">
+                <span class="close-button" onclick="closeFullScreen()">&times;</span>
+                <img id="fullscreen-image" src="" alt="">
+                <div id="description"></div>
+                <div class="arrow left-arrow" onclick="changeImage(-1)">&#10094;</div>
+                <div class="arrow right-arrow" onclick="changeImage(1)">&#10095;</div>
+            </div>
+        </div>
+        
+        
+    </main>
+    <script src="/JS/script.js"></script>
+</body>
+
+</html>
+
+<!-- Meet Archi 🐰
+Meet US  💞
+A letter for Her Birthday 💌
+How we Started 💕 -->
